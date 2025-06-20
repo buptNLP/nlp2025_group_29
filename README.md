@@ -23,7 +23,7 @@ SeriesLLM/
 
 ## 数据集准备
 
-将您的 CSV 格式时间序列数据放入 `data/` 目录下。数据应包含时间戳列和目标值列，例如：
+将 CSV 格式时间序列数据放入 `data/` 目录下。数据应包含时间戳列和目标值列，例如：
 
 ```csv
 date,OT,HUFL,HULL,MUFL,MULL,LUFL,LULL
