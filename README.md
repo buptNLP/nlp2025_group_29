@@ -4,6 +4,8 @@
 
 SeriesLLM 是一个基于大语言模型(LLM)和传统时间序列模型的时间序列预测工具包，集成了多种先进的预测方法，包括 Lag-Llama、TTM (Time Series Transformer Model)、LSTM 以及通用大语言模型(如 GPT、Llama、DeepSeek 等)的微调方案。
 
+![本地图片](./image.png)
+
 ## 目录结构
 
 ```
@@ -18,6 +20,8 @@ SeriesLLM/
 ├── lag_llama.py           # Lag-Llama 微调脚本
 ├── lstm_test.py           # LSTM 训练脚本
 ├── TTM.py                 # TTM 微调脚本
+├── seq_pred.py            # 前端代码
+├── app.py                 # 前端代码
 └── README.md              # 使用说明文档
 ```
 
